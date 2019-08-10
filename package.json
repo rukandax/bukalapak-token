@@ -1,0 +1,9 @@
+{
+  "name": "bukalapak-token",
+  "version": "1.0.0",
+  "description": "Service to retrieve public access token Bukalapak API - For Education Purpose",
+  "main": "index.js",
+  "repository": "https://github.com/rukandax/bukalapak-token",
+  "author": "Rukanda Faridsi <hey@rukanda.xyz>",
+  "license": "MIT"
+}
