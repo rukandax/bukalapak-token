@@ -6,9 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-prebuild": "yarn install",
-    "heroku-postbuild": "yarn start"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "https://github.com/rukandax/bukalapak-token",
   "author": "Rukanda Faridsi <hey@rukanda.xyz>",
