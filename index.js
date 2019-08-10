@@ -18,4 +18,4 @@ app.get('/', async (_, res) => {
   return res.send(token);
 });
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+app.listen(port, () => console.log(`bukalapak-token listening on port ${port}!`));
