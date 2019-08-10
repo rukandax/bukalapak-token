@@ -3,7 +3,23 @@
   "version": "1.0.0",
   "description": "Service to retrieve public access token Bukalapak API - For Education Purpose",
   "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/forever/bin/forever start index.js",
+    "stop": "./node_modules/forever/bin/forever stop index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-prebuild": "yarn install",
+    "heroku-postbuild": "yarn start"
+  },
   "repository": "https://github.com/rukandax/bukalapak-token",
   "author": "Rukanda Faridsi <hey@rukanda.xyz>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "forever": "^1.0.0",
+    "puppeteer": "^1.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
 }
